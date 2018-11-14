@@ -12,6 +12,7 @@
 		BF37D47D2199F73F00BF34EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF37D47B2199F73F00BF34EE /* Main.storyboard */; };
 		BF37D47F2199F74100BF34EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF37D47E2199F74100BF34EE /* Assets.xcassets */; };
 		BF37D4822199F74100BF34EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF37D4802199F74100BF34EE /* LaunchScreen.storyboard */; };
+		BFAE976A219C8A2A00AE9FAA /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9769219C8A2A00AE9FAA /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BF37D47E2199F74100BF34EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF37D4812199F74100BF34EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF37D4832199F74100BF34EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAE9769219C8A2A00AE9FAA /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BF37D4772199F73F00BF34EE /* AppDelegate.swift */,
 				BF37D4792199F73F00BF34EE /* ViewController.swift */,
+				BFAE9769219C8A2A00AE9FAA /* MapForItinerary.swift */,
 				BF37D47B2199F73F00BF34EE /* Main.storyboard */,
 				BF37D47E2199F74100BF34EE /* Assets.xcassets */,
 				BF37D4802199F74100BF34EE /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				BF37D47A2199F73F00BF34EE /* ViewController.swift in Sources */,
 				BF37D4782199F73F00BF34EE /* AppDelegate.swift in Sources */,
+				BFAE976A219C8A2A00AE9FAA /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Hardy.GitUseExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Hardy.GitUseExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
