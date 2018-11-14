@@ -25,11 +25,20 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Xx-Mz-caF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FH8-aa-j1w">
+                                <rect key="frame" x="75" y="170" width="225" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="FH8-aa-j1w" secondAttribute="bottom" constant="476" id="EJP-iB-J9c"/>
                             <constraint firstItem="YLd-Zo-E2w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Tew-pR-IbZ"/>
+                            <constraint firstItem="FH8-aa-j1w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dZ1-2X-T9h"/>
                             <constraint firstItem="YLd-Zo-E2w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="efB-4J-Nm2"/>
+                            <constraint firstItem="FH8-aa-j1w" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="150" id="ouI-Sb-3QV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
